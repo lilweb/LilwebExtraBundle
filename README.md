@@ -10,12 +10,11 @@ Simply add the bundle to the composer.json file :
 "lilweb/extra-bundle": "dev-master"
 ```
 
-## FilenameSanitizer
+### Global
 
-Creates a slug-url from a string
+ - [Sanitizer](Resources/doc/Sanitizer.md)
 
-### Usage
 
-```php
-$slug = Urlizer::urlize($myString);
-```
+### Behat
+
+ - [EmailContext](Resources/doc/EmailContext.md)
